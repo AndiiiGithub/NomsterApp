@@ -34,6 +34,9 @@ gem 'will_paginate', '> 3.0'
 gem 'simple_form'
 gem "font-awesome-rails"
 gem 'devise'
+gem "geocoder"
+gem "figaro"
+
 
 source 'http://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
