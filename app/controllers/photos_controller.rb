@@ -7,7 +7,7 @@ class PhotosController < ApplicationController
     redirect_to place_path(@place)
   end
 
-  def comment_params
-    params.require(:comment).permit(:message, :rating)
+  def photo_params
+    params.require(:photo).permit(:caption, :picture, :rating)
   end
 end
